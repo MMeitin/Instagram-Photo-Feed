@@ -1,0 +1,44 @@
+#wrapper {
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+}
+#flex-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+#intro {
+    background: white;   
+    flex: 1 1 100%;
+    text-align: center;
+}
+#nudo {
+    background: rgb(231, 231, 231);   
+    flex: 1 1 100%;
+}
+.elemento {
+    background: white;
+    width: 320px;
+    margin: 50px auto 50px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.titulo {
+    padding: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+}
+.fecha {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding: 5px;
+}
+.descripcion {
+    font-family: Lora;
+    padding: 5px;
+}
+img {
+    max-width: 100%;
+    height: auto;
+    object-fit:contain;
+  }
